@@ -31,7 +31,7 @@ header {
 ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
     margin: 0;
     padding: 0;
     align-items: flex-start;
