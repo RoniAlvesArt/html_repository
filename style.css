@@ -41,19 +41,50 @@ li:hover {
     color: red;
 }
 
-main {
-    margin: -100px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+main .container{
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: "nine two three"
+                        "four five six "
+                        "seven eight one";
+                        
 
-main img {
-    width: 200px;
 }
-
-main h1 {
-    font-size: 40px;
+.item1{
+    background-color: #EC5564;
+    grid-area: one;
+}
+.item2{
+    background-color: #FCD277;
+    grid-area:two;
+}
+.item3{
+    background-color: #FB6D51;
+    grid-area:three;
+}
+.item4{
+    background-color: #9ED36A;
+    grid-area:four;
+}
+.item5{
+    background-color: #46CEAD;
+    grid-area:five
+}
+.item6{
+    background-color: #5E9CEA;
+    grid-area:six;
+}
+.item7{
+    background-color: #967ADA;
+    grid-area:seven;
+}
+.item8{
+    background-color: #EB878F;
+    grid-area:eight;
+}
+.item9{
+    background-color: #F0C8A5;
+    grid-area:nine;
 }
